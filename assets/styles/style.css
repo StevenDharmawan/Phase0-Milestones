@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #fff;
+    --bg-header: #373543;
+    --bg-color: #f6efe9;
+    --main-color: #e28585;
+    --h1-font: 4rem;
+    --h2-font: 2.5rem;
+    --p-font: 1.2rem;
+}
+
+nav.navbar {
+    padding: 20px 10%;
+} 
+
+.navbar{
+    background: var(--bg-header);
+    color: var(--text-color);
+}
+
+.navbar .nav-link{
+    font-size: var(--p-font);
+}
+
+.navbar .navbar-brand {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.navbar-brand span {
+    color: var(--main-color);
+    margin-left: .5rem;
+}
+
+.navbar-brand i {
+    color: var(--main-color);
+}
+
+button.navbar-toggler {
+    border: none;
+    background: var(--main-color);
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home h1 {
+    font-size: var(--h1-font);
+}
+
+.home span {
+    color: var(--main-color);
+}
+
+.home p {
+    text-align: justify;
+}
+
+.btn1 {
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--main-color);
+    font-size: var(--p-font);
+    border: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    color: var(--text-color);
+}
+
+.home .padding {
+    padding-top: 25%;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--text-color);
+    padding: 15% 0;
+}
+
+.about h1{
+    margin-bottom: 10%;
+    font-size: var(--h1-font);
+}
+
+.gallery, .contactus {
+    background-color: var(--bg-color);
+    padding: 5%;
+}
+
+.gallery h1, .menu h1, .menu-random h1, .contactus h1, .login h1, .register h1{
+    font-size: var(--h1-font);
+    margin-bottom: 5%;
+}
+
+.menu, .menu-random, .login, .register{
+    padding: 5%;
+}
+
+.menu .btn2 {
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1.1rem;
+    background: var(--main-color);
+    font-size: var(--p-font);
+    border: none;
+    cursor: pointer;
+    border-radius:3rem;
+    color: var(--text-color);
+}
+
+.footer {
+    background: var(--bg-header);
+    color: var(--main-color);
+}
+
+.login, .register {
+    width: 100%;
+    height: 85vh;
+}
